@@ -141,7 +141,7 @@ namespace IMGUIZMO_NAMESPACE
 
    // enable/disable the gizmo. Stay in the state until next call to Enable.
    // gizmo is rendered with gray half transparent color when disabled
-   IMGUI_API void Enable(bool enable);
+   IMGUI_API void Begin(bool enable);
 
    // helper functions for manualy editing translation/rotation/scale with an input float
    // translation, rotation and scale float points to 3 floats each
